@@ -5,8 +5,7 @@ const restaurante = {
   whatsapp: "573185147956",
   desayunos: "7:00 a. m. a 11:00 a. m.",
   horarioGeneral: "",
-  redes: [], // Cada red lleva { nombre, url }.
-  destinoMaps: "" // Opcional: destino verificado. Por defecto se busca la dirección literal.
+  redes: [] // Cada red lleva { nombre, url }.
 };
 
 const carta = [

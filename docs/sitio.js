@@ -25,7 +25,6 @@ document.querySelector('[data-tel]').href = 'tel:' + restaurante.telefono.replac
 document.querySelectorAll('[data-wa]').forEach(el => {
   el.href = 'https://wa.me/' + restaurante.whatsapp;
 });
-document.querySelector('#mapa').href = 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(restaurante.destinoMaps || restaurante.direccion);
 document.querySelector('#horario').textContent = restaurante.horarioGeneral || 'Para otros horarios, consúltanos por WhatsApp.';
 restaurante.redes.forEach(red => {
   const link = document.createElement('a');

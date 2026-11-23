@@ -362,7 +362,7 @@ h1 em {
 .visit p {
   margin-bottom:10px
 }
-.text-link,[data-tel],[data-social] a {
+[data-tel],[data-social] a {
   text-decoration:underline;
   text-underline-offset:4px
 }

@@ -4,7 +4,7 @@ Web informativa del restaurante con 25 productos distribuidos en seis categoría
 
 ## Abrir y ejecutar
 
-Abre `docs/index.html` con doble clic para consultar la carta localmente. No requiere instalación ni compilación. WhatsApp y Google Maps requieren conexión.
+Abre `docs/index.html` con doble clic para consultar la carta localmente. No requiere instalación ni compilación. WhatsApp requiere conexión.
 
 Para probarla por HTTP desde la carpeta del proyecto, usa Python 3:
 
@@ -29,7 +29,6 @@ Las 21 fotos del catálogo son recortes de las láminas originales. Los cuatro d
 - El horario de 7:00 a. m. a 11:00 a. m. corresponde únicamente a desayunos. Completa `horarioGeneral` con los días y las horas de atención confirmados.
 - WhatsApp utiliza el número de pedidos impreso, +57 318 514 7956. Confirma que el restaurante atiende WhatsApp en esa línea.
 - Configura `redes` cuando tengas los perfiles oficiales.
-- Maps solicita indicaciones usando literalmente la dirección facilitada. Completa `destinoMaps` con el destino exacto verificado para evitar ambigüedad entre municipios.
 - La lámina de gaseosas publica un solo precio para la entrada y menciona dos presentaciones. La web conserva ese único precio.
 
 ## Publicar en GitHub Pages
@@ -37,6 +36,6 @@ Las 21 fotos del catálogo son recortes de las láminas originales. Los cuatro d
 1. Sube este proyecto a un repositorio conservando `docs/` en la raíz, incluido su archivo oculto `.nojekyll`.
 2. En la configuración de Pages del repositorio, elige la publicación desde una rama, selecciona la rama que contiene el proyecto y la carpeta `/docs`.
 3. Guarda y abre la URL que indique GitHub cuando termine el despliegue.
-4. Abre cada categoría desde esa URL y comprueba el enlace de indicaciones. Los recursos utilizan rutas relativas compatibles con una subruta de repositorio.
+4. Abre cada categoría desde esa URL. Los recursos utilizan rutas relativas compatibles con una subruta de repositorio.
 
 También puedes copiar el contenido de `docs/` a la raíz de cualquier alojamiento estático. No publiques la carpeta de originales para servir la web.
